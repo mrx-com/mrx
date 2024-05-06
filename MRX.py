@@ -199,7 +199,7 @@ def logo():
 {yellow}                 ██  ██  ██ ██   ██  ██ ██  
 {yellow}                 ██      ██ ██   ██ ██   ██ 
 {green}╔━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━╗
-{green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {blue}+8801865544636{green}┃  {yelloww}VERSION {green}: {rad}9.19  {green}┃
+{green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {white}+8801865544636{green}┃  {yelloww}VERSION {green}: {rad}9.19  {green}┃
 {green}╚━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━╝""")
 
 def linex():
@@ -208,10 +208,10 @@ def linex():
 def zahirul():
     os.system('clear')
     logo()
-    print(f"{white}[{green}A{white}] {green}START RANDOM CRACKING")
-    print(f"{white}[{green}B{white}] {green}MAIN ADMIN FB ACCOUNT")
-    print(f"{white}[{green}C{white}] {green}JOIN MESSENGER GROUP")
-    print(f"{white}[{green}D{white}] {green}EXIT PROGRAMMING")
+    print(f"{yellow}[{green}A{yellow}] {green}START RANDOM CRACKING          {yellow} ©2024")
+    print(f"{yellow}[{green}B{yellow}] {green}MAIN ADMIN FB ACCOUNT")
+    print(f"{yellow}[{green}C{yellow}] {green}JOIN MESSENGER GROUP")
+    print(f"{yellow}[{green}D{yellow}] {green}EXIT PROGRAMMING")
     _____zahirul_____ = input(f'{white}[{green}+{white}] {green}SELECT : {yelloww}')
     if _____zahirul_____ in ['A','a','01','1']:
         os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
@@ -230,7 +230,7 @@ def ___uids___():
     os.system('clear')
     logo()
     print(f"{white}[{green}+{white}] BD SIM CODE {green}: 017 015 018 019 013 015 016")
-    os.system('xdg-open https://github.com/MRX-ZAHIRUL')
+    os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
     code = input(f"{white}[{green}+{white}] SELECT      {green}: {white}")
     print(f"{white}[{green}+{white}] EXAMPLE {green}    : 1000,5000,10000,15000,20000")
     os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
