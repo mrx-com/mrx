@@ -73,7 +73,7 @@ try:
         for j in range(3000):
             time.sleep(0.5)
             os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
-            print(f'\033[1;92m Tool is updating Wait For Complete The Update')
+            #print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
         os.system('clear')
