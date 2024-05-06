@@ -191,14 +191,14 @@ os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
 def logo():
     os.system('clear')
     print(f"""                   {green}┏━━━━━━━━━━━━━━━━━━━┓{green}
-                   {green}┃{white}{faltu}MUHAMMAD ZAHIRUL {pvt}{green}┃
+                   {green}┃{white}{faltu}MUHAMMAD ZAHIRUL   {pvt}{green}┃
 {green}╔━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┳━━━━━┻━━━━━━━━━━━━━━━━━━━╗
-{green}┃{yellow}  ███╗   ███╗██████╗ ██╗  ██╗   ┃  
-{green}┃{yellow}  ████╗ ████║██╔══██╗╚██╗██╔╝   ┃ 
-{green}┃{yellow}  ██╔████╔██║██████╔╝ ╚███╔╝   ┃  
-{green}┃{yellow}  ██║╚██╔╝██║██╔══██╗ ██╔██╗   ┃  
-{green}┃{yellow}  ██║ ╚═╝ ██║██║  ██║██╔╝ ██╗   ┃ 
-{green}┃{yellow} ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ┃ 
+{green}┃{yellow}  ███╗   ███╗██████╗ ██╗  ██╗                                                                        {green}┃
+{green}┃{yellow}  ████╗ ████║██╔══██╗╚██╗██╔╝                                                               {green}┃
+{green}┃{yellow}  ██╔████╔██║██████╔╝ ╚███╔╝                                                                  {green}┃
+{green}┃{yellow}  ██║╚██╔╝██║██╔══██╗ ██╔██╗                                                                  {green}┃
+{green}┃{yellow}  ██║ ╚═╝ ██║██║  ██║██╔╝ ██╗                                                                     {green}┃
+{green}┃{yellow} ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                                                                              {green}┃
 {green}┣━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┻━━━━━━┳━━━━━━━━━━━━━━━━━━┫
 {green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {blue}+8801865544636{green}┃  {yelloww}VERSION {green}: {rad}9.19  {green}┃
 {green}╚━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━╝""")
