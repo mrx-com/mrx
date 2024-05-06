@@ -64,13 +64,7 @@ try:
 except requests.exceptions.ConnectionError:
     print(f"\033[1;91m[×] Connection Problem, Please Check Your Internet And Run Again")
     time.sleep(3);exit()
-    elif "off" in srv:
-        os.system('clear')
-        for j in range(1000):
-            time.sleep(0.5)
-            os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
-            print(f'\033[1;91m Tool is Currenty Off')
-        exit()
+
 except requests.exceptions.ConnectionError:
     print(f"\033[1;91m Connection Problem, Please Check Your Internet And Run Again")
     sys.exit()
