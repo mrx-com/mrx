@@ -191,7 +191,7 @@ os.system('xdg-open https://www.facebook.com/Zahirul65653?mibextid=JRoKGi')
 def logo():
     os.system('clear')
     print(f"""                   {green}┏━━━━━━━━━━━━━━━━━━━┓{green}
-                   {green}┃{white}{faltu}  MUHAMMAD ZAHIRUL  {pvt}{green}┃
+                   {green}┃{white}{faltu} MUHAMMAD ZAHIRUL  {pvt}{green}┃
 {green}╔━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━╗
 {green}┃{yellow}                 ███╗   ███╗██████╗ ██╗  ██╗                                                                                   
 {green}┃{yellow}                 ████╗ ████║██╔══██╗╚██╗██╔╝                                                                           
