@@ -1,2 +1,2 @@
 # mrx
-©mrx . ©2024 @muhammad zahirul
+©mrx . ©2024 @MuhammadZahirul
