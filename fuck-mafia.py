@@ -417,7 +417,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/mrx-com/mrx/blob/main/mrx.txt).text
+    httpCaht = requests.get('https://github.com/mrx-com/mrx/blob/main/mrx.txt').text
     if id in httpCaht:
       print("\33[1;32m[•] 𝐘𝐨𝐮 𝐤𝐞𝐲 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐀𝐩𝐨𝐫𝐨𝐯𝐞𝐝")
       os.system('espeak -a 300 " permission granted"')
